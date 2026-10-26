@@ -1,0 +1,46 @@
+# =========================
+# Python
+# =========================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# =========================
+# Next.js / Node.js
+# =========================
+node_modules/
+.next/
+out/
+.vercel/
+npm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# RetailIQ datasets
+# =========================
+data/
+*.xlsx
+*.xls
+*.parquet
+
+# Customer-level analytical outputs
+outputs/*.csv
+dashboard/data/analytics.json
+dashboard/public/retailiq-data.json
+
+# =========================
+# Temporary files
+# =========================
+*.zip
+*.log
+.DS_Store
+Thumbs.db
