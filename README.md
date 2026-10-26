@@ -109,6 +109,8 @@ These are **descriptive names**, not verified churn states, causal effects, or p
 
 The dashboard uses **Next.js, React, and Recharts** to present customer KPIs, segment comparisons, sales trends, and model explanations.
 
+You access the deployed dashboard here: https://retailiq-analytics.vercel.app/
+
 ![RetailIQ Sales & Products dashboard screenshot](docs/images/dashboard-sales-screenshot.png)
 
 *Figure 4 — Screenshot of the Sales & Products page during development. It shows monthly revenue and ranked products. Product-name labels were being refined at the time of capture; this is not presented as a final production screenshot.*
